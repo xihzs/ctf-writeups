@@ -289,7 +289,7 @@ unsigned __int64 sub_403BC7()
 }
 ```
 
-If we look at the **Check Quest Board** function in IDA, we can identify the line that checks if we have a **HERO** with 255 attack.
+If we look at the **Check Quest Board** function in IDA, we can identify the line that checks if we have a **HERO** with **255** attack.
 
 It calls a function pointed to by the pointer in the memory allocated for the player.
 
