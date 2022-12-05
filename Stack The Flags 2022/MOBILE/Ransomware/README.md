@@ -2,6 +2,7 @@
 ---
 
 > Jaga loves to download mobile games online. Oh no! Now Jaga's phone is infected with ransomware! Help Jaga to decrypt the necessary file!
+> Difficulty: Easy
 > Files: [ransomware.apk](./challenge2.apk)
 
 ---
