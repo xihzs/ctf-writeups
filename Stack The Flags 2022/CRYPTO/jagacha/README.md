@@ -2,7 +2,9 @@
 ---
 
 > Description: JAGATSA
+>
 > Difficulty: Medium
+>
 > Files: [config.py](./config.py) [jagacha.py](./jagacha.py)
 
 ---
