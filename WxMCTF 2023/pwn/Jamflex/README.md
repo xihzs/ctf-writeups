@@ -28,7 +28,7 @@ pw2 = ord("A")*10  = 650
 p = process("./jamflex")
 p.sendline(b"AAAAAAAAAA")
 p.sendline(b"username: ", b"hello")
-p.sendline(b"password: ", b"1234567890")
+p.sendline(b"password: ", b"650")
 p.interactive()
 ```
 
