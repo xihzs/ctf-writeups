@@ -1,14 +1,12 @@
 # Jamflex
 
----
 > jamflex made this login system for mgci kids l0l good luck getting in
 >
 > 🦀$11🦀
 >
 > NOTE: the solution is not brute force :)
----
 
-### Static Analysis
+## Static Analysis
 
 This challenge contains seemingly logical (but broken) code. 
 
@@ -24,7 +22,7 @@ pw1 = "A"*10       = AAAAAAAAAA
 pw2 = ord("A")*10  = 650
 ```
 
-### Solution
+## Solution
 
 ```python
 p = process("./jamflex")

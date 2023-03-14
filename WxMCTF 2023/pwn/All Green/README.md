@@ -1,14 +1,12 @@
 # All Green
 
----
 
 > This problem is greener than grass. (which you should probably go touch)
 > 
 > nc toady.nyiyui.ca 2000
 
----
 
-### Static Analysis
+## Static Analysis
 
 Looking at the provided source code, we can see that in the `func` function, there is both a buffer overflow via the `gets` function and a format string vulnerability via the usage of `printf` with no explicit format string. 
 
@@ -36,7 +34,7 @@ The program also hints to there being all protections enabled for the binary as 
 
 Finally, we have a win function _(albeit there being some additional checks)_ which we can easily return to.
 
-### Exploit Strategy
+## Exploit Strategy
 
 In order to win, we want to call an offset of the win function to read the flag with minimum effort.
 
